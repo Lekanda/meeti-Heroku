@@ -113,6 +113,8 @@ const Meeti = db.define(
             }
         }
     } );
+
+    
 Meeti.belongsTo(Usuarios);
 Meeti.belongsTo(Grupos);
 
