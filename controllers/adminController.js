@@ -1,7 +1,7 @@
 const Grupos = require('../models/Grupos');
 const Meeti = require('../models/Meeti');
 const moment = require('moment');
-const Sequelize = require('Sequelize');
+const Sequelize = require('sequelize');
 const Op = Sequelize.Op
 
 exports.panelAdministracion = async (req,res) => {
