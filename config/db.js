@@ -14,4 +14,6 @@ module.exports = new Sequelize(process.env.BD_NOMBRE, process.env.BD_USER, proce
         timestamps: true// Quita campos creados automaticamente(false), true los deja
     },
     logging: false // Quita mensajes SQL de la consola
+
+    
 });
