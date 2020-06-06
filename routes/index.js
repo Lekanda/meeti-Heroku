@@ -50,15 +50,18 @@ module.exports = function() {
         meetiControllerFE.mostrarAsistentes
     );
 
+    
     // Muestra perfiles en el Frontend
     router.get('/usuarios/:id',
         usuariosControllerFE.mostrarUsuario
     );
 
+
     // Muestra los grupos en el FrontEnd
     router.get('/grupos/:id', 
         gruposControllerFE.mostrarGrupo
     );
+
 
     // Muestra Meetis por categoria 
     router.get('/categoria/:categoria',
